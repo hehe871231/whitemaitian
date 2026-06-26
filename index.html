@@ -194,6 +194,9 @@
         .product-card:nth-child(8) .product-image { background: linear-gradient(135deg, #F2EEE7, #E6DCC9); }
         .product-card:nth-child(9) .product-image { background: linear-gradient(135deg, #F5F1E9, #EAE0D0); }
         .product-card:nth-child(10) .product-image { background: linear-gradient(135deg, #F5F1E9, #EAE0D0); }
+        .product-card:nth-child(11) .product-image { background: linear-gradient(135deg, #F5F1E9, #EAE0D0); }
+        .product-card:nth-child(12) .product-image { background: linear-gradient(135deg, #F5F1E9, #EAE0D0); }
+        .product-card:nth-child(12) .product-image { background: linear-gradient(135deg, #F5F1E9, #EAE0D0); }
 
         .product-number {
             position: absolute; top: 16px; left: 16px; z-index: 2;
@@ -459,7 +462,7 @@
     <!-- ==================== 导航栏 ==================== -->
     <nav class="navbar" id="navbar">
         <div class="navbar-inner">
-            <a href="#home" class="nav-brand"><img src="whitemaitian logo.png" alt="logo" height="24"></a>
+            <a href="#home" class="nav-brand"><img src="whitemaitian logo.png" alt="logo" height="26"></a>
             <button class="hamburger" id="hamburger" aria-label="菜单">
                 <span></span><span></span><span></span>
             </button>
@@ -631,6 +634,30 @@
                         <div class="category">配饰 · 袜子</div>
                         <h3>骑行袜</h3>
                         <p>包裹感强 非毛巾</p>
+                    </div>
+                </div>
+                <!-- 产品 12（隐藏） -->
+                <div class="product-card hidden-product" data-product-id="12">
+                    <div class="product-image">
+                        <span class="product-number">012</span>
+                         <img src="012.JPG" alt="产品名" style="width:100%;height:100%;object-fit: cover;">
+                    </div>
+                    <div class="product-info">
+                        <div class="category">配饰 · 袜子</div>
+                        <h3>日系潮袜</h3>
+                        <p>毛巾底</p>
+                    </div>
+                </div>
+                <!-- 产品 13（隐藏） -->
+                <div class="product-card hidden-product" data-product-id="13">
+                    <div class="product-image">
+                        <span class="product-number">012</span>
+                         <img src="013.JPG" alt="产品名" style="width:100%;height:100%;object-fit: cover;">
+                    </div>
+                    <div class="product-info">
+                        <div class="category">配饰 · 袜子</div>
+                        <h3>日系潮袜</h3>
+                        <p>毛巾底</p>
                     </div>
                 </div>
             </div>
@@ -890,6 +917,27 @@
                 name: '高筒骑行', category: '配饰 · 袜子',
                 desc: '包裹感骑行袜非毛巾底白袜',
                 details: [{label:'材质',value:'尼龙、 氨纶'},{label:'尺寸',value:'L'}]
+            },
+            12: {
+                images: [
+                    { src: '012.JPG', alt: '手账本封面'  },
+                    { src: '012-1.JPG', alt: '手账本封面'  },
+                    { src: '012-2.JPG', alt: '手账本封面'  },
+                    { src: '012-3.jpg', alt: '手账本封面'  }
+                ],
+                name: '日系潮袜', category: '配饰 · 袜子',
+                desc: '毛巾底字母',
+                details: [{label:'材质',value:'棉'},{label:'尺寸',value:'L'}]
+            },
+            13: {
+                images: [
+                    { src: '013-1.JPG', alt: '手账本封面'  },
+                    { src: '013-2.JPG', alt: '手账本封面'  },
+                    { src: '013-3.JPG', alt: '手账本封面'  }
+                ],
+                name: '日系潮袜', category: '配饰 · 袜子',
+                desc: '偏薄毛巾底夏日',
+                details: [{label:'材质',value:'棉'},{label:'尺寸',value:'L'}]
             }
         };
 
